@@ -8,7 +8,9 @@
 #import "WtDebugCellGluesManager.h"
 
 #import <Masonry/Masonry.h>
+#if DEBUG
 #import <FLEX/FLEXManager.h>
+#endif
 #import <KMCGeigerCounter/KMCGeigerCounter.h>
 
 #import "WtCore.h"
@@ -63,7 +65,7 @@
       [tableView.wtFirstViewController.navigationController pushViewController:toViewCtrl animated:YES];
     }];
   }
-
+#if DEBUG
   { // FLEX
     WtDebugTableViewCellRightDetailGlue *cellGlue = [[WtDebugTableViewCellRightDetailGlue alloc] init];
     [self.cellGlues addObject:cellGlue];
@@ -76,7 +78,7 @@
       [[FLEXManager sharedManager] showExplorer];
     }];
   }
-
+#endif
   { // FPS
     WtDebugTableViewCellBasicSwitchGlue *cellGlue = [[WtDebugTableViewCellBasicSwitchGlue alloc] init];
     [self.cellGlues addObject:cellGlue];

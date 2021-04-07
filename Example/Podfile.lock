@@ -1,6 +1,6 @@
 PODS:
   - FDFullscreenPopGesture (1.1)
-  - FLEX (2.4.0)
+  - FLEX (4.4.1)
   - KMCGeigerCounter (0.3.0)
   - Masonry (1.1.0)
   - WtCore (0.5.3):
@@ -44,10 +44,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  FLEX: 7ca2c8cd3a435ff501ff6d2f2141e9bdc934eaab
   KMCGeigerCounter: a06cfeed4a96e8f9a49028abb3ba7e53604d3219
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  WtCore: dae03ce109ff2e60e9e10a8c1b14870e54becf50
+  WtCore: ccf0f670bf6042ba3335dc908227fa5c7a509997
 
 PODFILE CHECKSUM: f14c47536dfdce2eb7cf887a65d5c7ca32ab9b1d
 

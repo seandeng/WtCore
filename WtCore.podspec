@@ -51,7 +51,7 @@ blablabla private~
   s.subspec "DebugTools" do |ss|
     ss.ios.source_files = "Components/DebugTools/**/*.{h,m}"
     ss.ios.public_header_files = "Components/DebugTools/**/*.h"
-    ss.dependency 'FLEX'
+    ss.dependency 'FLEX', :configurations => ['Debug']
     ss.dependency 'KMCGeigerCounter'
     ss.dependency 'Masonry'
     ss.dependency 'WtCore/UI'
